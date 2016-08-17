@@ -7,4 +7,4 @@ install: all
 	install kaps2regions.sh /usr/local/bin
 
 regions: regions.gpx
-	./gpx2regions.py < regions.gpx > regions.gpx
+	./gpx2regions.py < regions.gpx > regions

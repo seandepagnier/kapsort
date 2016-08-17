@@ -1,5 +1,10 @@
 Install
 
-sudo make install
+$ git clone https://github.com/seandepagnier/imgkap.git
+$ sudo make -C imgkap install
+
+$ git clone https://github.com/seandepagnier/kapsort.git
+$ cd kapsort
+$ sudo make install
 
 Simply run "kaps2regions.sh" in a folder with kaps, and they will be sorted and placed into their region in a directory named "output"  Requires imgkap to read the kap header.
